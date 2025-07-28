@@ -1,0 +1,22 @@
+import { createBrowserRouter } from "react-router-dom";
+import ReactForm from "./components/ReactForm/ReactForm";
+import Home from "./components/Home/Home";
+import App from "./App";
+
+
+export const routes = createBrowserRouter([
+    {
+        path: '/',
+        Component: App,
+        children: [
+            {
+                index: true,
+                Component: Home,
+            },
+            {
+                path: 'form',
+                Component: ReactForm
+            }
+        ]
+    }
+]);
