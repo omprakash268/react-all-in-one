@@ -22,6 +22,24 @@ const Header = () => {
           }`
         }
       >Form</NavLink>
+      <NavLink
+        to={'/progress-bar'}
+        className={({ isActive }) =>
+          `px-4 py-2 rounded transition-colors duration-300 ease-in-out ${isActive
+            ? 'bg-blue-600 text-white'
+            : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
+          }`
+        }
+      >Progress Bar</NavLink>
+      <NavLink
+        to={'/auto-complete'}
+        className={({ isActive }) =>
+          `px-4 py-2 rounded transition-colors duration-300 ease-in-out ${isActive
+            ? 'bg-blue-600 text-white'
+            : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
+          }`
+        }
+      >Auto complete</NavLink>
     </div>
   )
 }

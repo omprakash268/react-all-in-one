@@ -1,0 +1,9 @@
+.user-input-box {
+  border: 1px solid black;
+  height: 2rem;
+  width: 25rem;
+  padding: 0.5rem;
+}
+.main-autocomplete-container{
+  position: relative;
+}

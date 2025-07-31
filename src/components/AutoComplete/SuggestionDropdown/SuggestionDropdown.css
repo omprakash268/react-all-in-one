@@ -1,0 +1,23 @@
+.dropdown-container {
+  width: 25rem;
+  border: 1px solid black;
+  border-top: none;
+  position: absolute;
+  left: 1rem;
+  top: 3rem;
+  z-index: 10;
+  max-height: 10rem;
+  overflow: auto;
+  background-color: white;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 0.1rem 0.5rem;
+}
+
+li:hover{
+    background-color: aquamarine;
+}
