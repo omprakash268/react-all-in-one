@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import App from "./App";
 import { ProgressBarHome } from "./components/ProgressBarHome/ProgressBarHome";
 import { AutoComplete } from "./components/AutoComplete/AutoComplete";
+import { AccordionHome } from "./components/AccordionHome/AccordionHome";
 
 
 export const routes = createBrowserRouter([
@@ -26,6 +27,10 @@ export const routes = createBrowserRouter([
             {
                 path: 'auto-complete',
                 Component: AutoComplete
+            },
+            {
+                path: 'accordion',
+                Component: AccordionHome
             },
         ]
     }
