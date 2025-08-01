@@ -1,0 +1,23 @@
+.accordion-container {
+  width: 30rem;
+}
+.acc-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.acc-body {
+  max-height: 0;
+  padding: 0 1rem; /* horizontal padding always */
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+.acc-body.open {
+  max-height: 10rem; /* or whatever is enough for your content */
+  padding: 1rem; /* expand padding only when open */
+}

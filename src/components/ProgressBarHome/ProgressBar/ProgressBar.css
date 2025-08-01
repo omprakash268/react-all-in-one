@@ -1,0 +1,22 @@
+.progress-container {
+  width: 40rem;
+  height: 1.5rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.inner-progress {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: all 0.5s ease;
+  padding-right: 1rem;
+}
