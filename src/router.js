@@ -5,6 +5,7 @@ import App from "./App";
 import { ProgressBarHome } from "./components/ProgressBarHome/ProgressBarHome";
 import { AutoComplete } from "./components/AutoComplete/AutoComplete";
 import { AccordionHome } from "./components/AccordionHome/AccordionHome";
+import { ChipInputHome } from "./components/ChipInputHome/ChipInputHome";
 
 
 export const routes = createBrowserRouter([
@@ -31,6 +32,10 @@ export const routes = createBrowserRouter([
             {
                 path: 'accordion',
                 Component: AccordionHome
+            },
+            {
+                path: 'chip-input',
+                Component: ChipInputHome
             },
         ]
     }
