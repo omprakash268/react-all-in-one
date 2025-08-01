@@ -1,0 +1,21 @@
+.chip-container {
+  background-color: rgb(211, 209, 209);
+  border-radius: 2rem;
+  width:fit-content;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.chip-data {
+  font-size: 1rem;
+}
+
+.chip-delete-icon {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: red;
+  cursor: pointer;
+}

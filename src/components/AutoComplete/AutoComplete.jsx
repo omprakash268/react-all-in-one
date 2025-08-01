@@ -48,7 +48,7 @@ export const AutoComplete = () => {
     }, []);
     return (
         <div className='p-4 main-autocomplete-container'>
-            <input className="user-input-box" type="text" value={userInput} onChange={handleInputChange} onFocus={hanldeFocus} onBlur={hanldeBlur} />
+            <input className="user-input-box" placeholder='Enter search item' type="text" value={userInput} onChange={handleInputChange} onFocus={hanldeFocus} onBlur={hanldeBlur} />
             {isFocused && <SuggestionDropdown suggestion={suggestion} handleSelectedItem={handleSelectedItem} />}
         </div>
     )

@@ -49,6 +49,15 @@ const Header = () => {
           }`
         }
       >Accordion</NavLink>
+      <NavLink
+        to={'/chip-input'}
+        className={({ isActive }) =>
+          `px-4 py-2 rounded transition-colors duration-300 ease-in-out ${isActive
+            ? 'bg-blue-600 text-white'
+            : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
+          }`
+        }
+      >Chip Input</NavLink>
     </div>
   )
 }
